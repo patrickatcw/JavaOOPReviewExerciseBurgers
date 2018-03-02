@@ -84,6 +84,25 @@ public class Main {
         Total Healthy Burger price is 17.5
          */
 
+        //step 21 now make deluxe class
+
+        //step 25 from deluxe class, make instances and run here....
+        System.out.println("--------------------------------------");
+        Deluxe db = new Deluxe();
+        db.itemizeHamburger();
+        //result
+        /*
+        --------------------------------------
+        Deluxe hamburger on a Wheat roll with Sausage & Bacon meat, price is 16.99
+        Added Chips for an extra 4.99
+        Added Drink for an extra 2.99
+         */
+
+        //step 26 now we got to make sure no additional items are allowed, go to deluxe class
+
+        //step 28, can still add chips and drinks because we call super in step 24 in deluxe class
+
+
 
     }
 

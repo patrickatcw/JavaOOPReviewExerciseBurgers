@@ -53,11 +53,11 @@ public class Main {
         //now go make a class HealthyBurger for step 9
 
         //step 15 run healthy burger instances and printouts
-        System.out.println("-----------------------------------------------");
+        /*System.out.println("-----------------------------------------------");
         HealthyBurger healthyBurger = new HealthyBurger("Tofu", 12.99);
         healthyBurger.addHamburgerAddition1("Kale", 2.22);
         healthyBurger.itemizeHamburger();
-        healthyBurger.addHealthAddition1("Sprouts", 2.29);
+        healthyBurger.addHealthAddition1("Sprouts", 2.29);*/
         //result
         /*
         -----------------------------------------------
@@ -68,6 +68,21 @@ public class Main {
 
         //step 16 go back to healthyburger class and make method to itemize healthy burger
 
+        System.out.println("-------------------------------------------------------");
+        //step 20, comment out step 15
+        HealthyBurger healthyBurger = new HealthyBurger("Tofu", 12.99);
+        healthyBurger.addHamburgerAddition1("Kale", 2.22);
+        healthyBurger.addHealthAddition1("Sprouts", 2.29);
+        System.out.println("Total Healthy Burger price is " + healthyBurger.itemizeHamburger());
+
+        //result
+        /*
+        -------------------------------------------------------
+        Healthy hamburger on a Brown rye roll with Tofu meat, price is 12.99
+        Added Kale for an extra 2.22
+        Added Sprouts for an extra 2.29
+        Total Healthy Burger price is 17.5
+         */
 
 
     }

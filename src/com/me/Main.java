@@ -32,6 +32,27 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //step 8 from hamburger class
+        Hamburger hamburger = new Hamburger("Basic", "Bison", 18.99, "Pretzel");
+        double price = hamburger.itemizeHamburger();
+        hamburger.addHamburgerAddition1("Onion", 0.65);
+        hamburger.addHamburgerAddition2("Pickles", 0.45);
+        hamburger.addHamburgerAddition3("Cheese", 1.29);
+        System.out.println("Total Burger price is " + hamburger.itemizeHamburger());
+
+        //printout
+        /*
+        Basic hamburger on a Pretzel roll with Bison meat, price is 18.99
+        Basic hamburger on a Pretzel roll with Bison meat, price is 18.99
+        Added Onion for an extra 0.65
+        Added Pickles for an extra 0.45
+        Added Cheese for an extra 1.29
+        Total Burger price is 21.379999999999995
+         */
+
+        //now go make a class HealthyBurger for step 9
+
+
     }
 
 }
